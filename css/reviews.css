@@ -1,0 +1,620 @@
+.reviews{ 
+    padding: 3% 0;
+}
+
+.reviews_first{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    background-color: ;
+    align-items: center;
+    margin-bottom: 3.5%;
+}
+
+.reviews_title{ 
+    user-select: none;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+}
+
+.reviews_title h1{ 
+    font-size: 2.3vw;
+    margin-bottom: 2%;
+}
+
+.reviews_title h3{ 
+    font-size: 1.2vw;
+}
+
+.reviews_circles{ 
+    width: fit-content; 
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: ;
+    margin: 0 -2% 0 auto;
+}
+
+.rev_circ{ 
+    width: 70px;
+    height: 70px;
+    background-color: ;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin-right: -5%;
+}
+
+.rev_circ:last-child{ 
+    margin-right: 0;
+}
+
+.rev_circ.one{ 
+    background: url(../img/first/reviews_circ1.png) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.rev_circ.two{ 
+    background: url(../img/first/reviews_circ2.png) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.rev_circ.three{ 
+    background: url(../img/first/reviews_circ3.png) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.rev_circ.four{ 
+    background: url(../img/first/reviews_circ4.png) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.rev_circ.five{ 
+    background: url(../img/first/reviews_circ5.png) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.rev_circ.six{ 
+    background: url(../img/first/reviews_circ6.png) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.review{ 
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: #F1F7FF;
+    border: 1px solid #c4ddff;
+    margin-bottom: 3%;
+    border-radius: 45px;
+}
+
+.rev_title {
+    margin: 3% 3% auto 3%;
+    width: 48%;
+    height: fit-content;
+    background-color: ;
+}
+
+.rev_title h2 {
+    font-size: 2.3vw;
+    margin-bottom: 3.5%;
+}
+
+.rev_subtitle{ 
+    font-size: 1.5vw;
+    opacity: 70%;
+    margin-bottom: 9%;
+}
+
+.desktop_img{ 
+    pointer-events: none;
+    width: 50%;
+    margin: 0 0 0 auto;
+}
+
+.review:last-child{ 
+    margin-bottom: 0;
+}
+
+.rev_user{
+    width: 80%; 
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: ;
+}
+
+.rev_user h4 {
+    font-size: 1.6vw;
+    opacity: 65%;
+}
+
+.user_img{ 
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-right: 5%;
+}
+
+.user_img.one{ 
+    background: url(../img/first/user_img1.png) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.user_img.two{ 
+    background: url(../img/first/user_ava1.jpg) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.user_img.three{ 
+    background: url(../img/first/user_ava2.jpg) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.user_img.four{ 
+    background: url(../img/first/user_ava3.jpg) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover;
+}
+
+.user_name{ 
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+}
+
+.user_title{ 
+    opacity: 100%;
+    font-size: 1.7vw;
+    margin-bottom: 2%;
+}
+
+.review-list {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: ;
+    margin-bottom: 1.7%;
+}
+  
+.review-list.grab {
+cursor: grab;
+}
+
+.review-list.grabbing{
+cursor: grabbing;
+}
+
+.review-track {
+width: 100%;
+display: flex;
+}
+
+.review_lines{ 
+display: flex;
+flex-direction: row;
+width: 100%;
+margin: 0 auto;
+background-color: #ddd;
+height: 4px;
+border-radius: 20px;
+}
+  
+.reviewLine{ 
+width: 25%;
+height: 100%;
+border-radius: 20px;
+background-color: #778CEB;
+opacity: 0;
+}
+
+.reviewLine.active{ 
+opacity: 1;
+}
+
+
+
+@media (min-width: 751px) and (max-width: 3500px){ 
+    .mobile_img{ 
+        display: none;
+    }
+}
+
+@media (min-width: 320px) and (max-width: 750px){ 
+    .reviews{ 
+        padding: 5% 0;
+    }
+    
+    .reviews_first{ 
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: fit-content;
+        background-color: ;
+        align-items: center;
+        margin-bottom: 4%;
+    }
+    
+    .reviews_title{ 
+        width: 70%;
+        height: fit-content;
+        margin: 0 auto 4% auto;
+        display: flex;
+        flex-direction: column;
+        background-color: ;
+    }
+    
+    .reviews_title h1{ 
+        font-size: 5vw;
+        margin-bottom: 3.5%;
+        text-align: center;
+    }
+    .reviews_title h1 br{ 
+        display: none;
+    }
+    
+    .reviews_title h3{ 
+        text-align: center;
+        font-size: 2.5vw;
+        font-weight: 400;
+    }
+    
+    .reviews_circles{ 
+        width: fit-content; 
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        background-color: ;
+        margin: 0 auto 0 auto;
+    }
+    
+    .rev_circ{ 
+        width: 70px;
+        height: 70px;
+        background-color: ;
+        border-radius: 50%;
+        border: 3px solid #fff;
+        margin-right: 0;
+    }
+    
+    @media (min-width: 320px) and (max-width: 370px){ 
+        .rev_circ{ 
+            width: 45px;
+            height: 45px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 371px) and (max-width: 420px){ 
+        .rev_circ{ 
+            width: 50px;
+            height: 50px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 421px) and (max-width: 470px){ 
+        .rev_circ{ 
+            width: 55px;
+            height: 55px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 471px) and (max-width: 520px){ 
+        .rev_circ{ 
+            width: 60px;
+            height: 60px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 521px) and (max-width: 570px){ 
+        .rev_circ{ 
+            width: 65px;
+            height: 65px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 571px) and (max-width: 620px){ 
+        .rev_circ{ 
+            width: 70px;
+            height: 70px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 621px) and (max-width: 670px){ 
+        .rev_circ{ 
+            width: 75px;
+            height: 75px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 671px) and (max-width: 720px){ 
+        .rev_circ{ 
+            width: 80px;
+            height: 80px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+
+    @media (min-width: 721px) and (max-width: 750px){ 
+        .rev_circ{ 
+            width: 82px;
+            height: 82px;
+            background-color: ;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            margin-right: 0;
+        }
+    }
+    
+    .rev_circ.one{ 
+        background: url(../img/first/reviews_circ1.png) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .rev_circ.two{ 
+        background: url(../img/first/reviews_circ2.png) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .rev_circ.three{ 
+        background: url(../img/first/reviews_circ3.png) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .rev_circ.four{ 
+        background: url(../img/first/reviews_circ4.png) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .rev_circ.five{ 
+        background: url(../img/first/reviews_circ5.png) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .rev_circ.six{ 
+        background: url(../img/first/reviews_circ6.png) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .review{ 
+        width: 100%;
+        padding: 5% 4%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: #F1F7FF;
+        border: 1px solid #c4ddff;
+        margin-bottom: 3%;
+        border-radius: 45px;
+    }
+    
+    .rev_title {
+        width: 100%;
+        height: fit-content;
+        margin: 0 auto;
+        background-color: ;
+    }
+    
+    .rev_title h2 {
+        font-size: 5vw;
+        margin-bottom: 5%;
+    }
+    
+    .rev_subtitle{ 
+        font-size: 3vw;
+        opacity: 70%;
+        margin-bottom: 4%;
+    }
+    
+    .mobile_img{ 
+        width: 100%;
+        margin-bottom: 3%;
+    }
+
+    .desktop_img{ 
+        display: none;
+    }
+    
+    .review:last-child{ 
+        margin-bottom: 0;
+    }
+    
+    .rev_user{
+        width: fit-content; 
+        margin: 0 auto;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: ;
+    }
+    
+    .rev_user h4 {
+        white-space: nowrap;
+        font-size: 3vw;
+        opacity: 65%;
+    }
+    
+    .user_img{ 
+        width: 65px;
+        height: 55px;
+        border-radius: 50%;
+        margin-right: 5%;
+    }
+
+    @media (min-width: 320px) and (max-width: 450px){ 
+        .user_img{ 
+            width: 55px;
+            height: 47px;
+            border-radius: 50%;
+            margin-right: 5%;
+        }
+    }
+
+    @media (min-width: 451px) and (max-width: 550px){ 
+        .user_img{ 
+            width: 65px;
+            height: 55px;
+            border-radius: 50%;
+            margin-right: 5%;
+        }
+    }
+
+    @media (min-width: 551px) and (max-width: 650px){ 
+        .user_img{ 
+            width: 75px;
+            height: 63px;
+            border-radius: 50%;
+            margin-right: 5%;
+        }
+    }
+
+    @media (min-width: 651px) and (max-width: 750px){ 
+        .user_img{ 
+            width: 85px;
+            height: 70px;
+            border-radius: 50%;
+            margin-right: 5%;
+        }
+    }
+    
+    .user_img.one{ 
+        background: url(../img/first/user_img1.png) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .user_img.two{ 
+        background: url(../img/first/user_ava1.jpg) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .user_img.three{ 
+        background: url(../img/first/user_ava2.jpg) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .user_img.four{ 
+        background: url(../img/first/user_ava3.jpg) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover;
+    }
+    
+    .user_name{ 
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        background-color: ;
+    }
+    
+    .user_title{ 
+        white-space: nowrap;
+        word-wrap: break-word;
+        opacity: 100%;
+        font-size: 3.3vw;
+        margin-bottom: 2%;
+    }
+    
+    .review-list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: ;
+        margin-bottom: 1.7%;
+    }
+      
+    .review-list.grab {
+    cursor: grab;
+    }
+    
+    .review-list.grabbing{
+    cursor: grabbing;
+    }
+    
+    .review-track {
+    width: 100%;
+    display: flex;
+    }
+    
+    .review_lines{ 
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #ddd;
+    height: 4px;
+    border-radius: 20px;
+    }
+      
+    .reviewLine{ 
+    width: 25%;
+    height: 100%;
+    border-radius: 20px;
+    background-color: #778CEB;
+    opacity: 0;
+    }
+    
+    .reviewLine.active{ 
+    opacity: 1;
+    }
+}

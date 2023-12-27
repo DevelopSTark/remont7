@@ -1,0 +1,221 @@
+.whyUs{ 
+    padding: 3% 0 5% 0;
+}
+
+.whyUs_cards{ 
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    background-color: ;
+    justify-content: space-between;
+}
+
+.cardUs{ 
+    width: 24%;
+    padding: 2%;
+    border-radius: 20px;
+}
+
+.cardUs img{ 
+    width: 30%;
+    margin-bottom: 3%;
+}
+
+.cardUs h2{ 
+    font-size: 1.7vw;
+    margin-bottom: 10%;
+}
+
+.cardUs h3{ 
+    font-size: 1.3vw;
+    font-weight: 400;
+}
+
+.cardUs h3 br{ 
+    display: none;
+}
+
+.cardUs.one{ 
+    background: url(../img/first/card_fon1.svg) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+.cardUs.two{ 
+    background: url(../img/first/card_fon2.svg) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+.cardUs.three{ 
+    background: url(../img/first/card_fon3.svg) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+.cardUs.four{ 
+    background: url(../img/first/card_fon4.svg) center no-repeat;  
+    -webkit-background-size: cover;
+    background-size: cover; 
+}
+
+.whyUs_title{ 
+    width: fit-content;
+    height: fit-content;
+    background-color: ;
+    margin: 0 auto 3% auto;
+}
+
+.whyUs_title h1{ 
+    font-size: 3vw;
+    text-align: center;
+    margin-bottom: 1.5%;
+}
+
+.whyUs_title h2{ 
+    text-align: center;
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+
+
+@media (min-width: 751px) and (max-width: 3500px){ 
+    .whyUs_mob{ 
+        display: none;
+    }
+}
+
+
+@media (min-width: 320px) and (max-width: 750px){ 
+    .whyUs{ 
+        padding: 5% 0 5% 0;
+    }
+    
+    .whyUs_cards{ 
+        display: none;
+    }
+    
+    .cardUs_mob{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: 0 auto;
+        padding: 8% 4% 15% 4%;
+        border-radius: 20px;
+    }
+    
+    .cardUs_mob img{ 
+        width: 20%;
+        margin-bottom: 3%;
+    }
+    
+    .cardUs_mob h2{ 
+        font-size: 5.5vw;
+        margin-bottom: 5%;
+    }
+    
+    .cardUs_mob h3{ 
+        font-size: 3.5vw;
+        font-weight: 400;
+    }
+    
+    .cardUs_mob h3 br{ 
+        display: none;
+    }
+    
+    .cardUs_mob.one{ 
+        background: url(../img/first/card_fon1.svg) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover; 
+    }
+    
+    .cardUs_mob.two{ 
+        background: url(../img/first/card_fon2.svg) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover; 
+    }
+    
+    .cardUs_mob.three{ 
+        background: url(../img/first/card_fon3.svg) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover; 
+    }
+    
+    .cardUs_mob.four{ 
+        background: url(../img/first/card_fon4.svg) center no-repeat;  
+        -webkit-background-size: cover;
+        background-size: cover; 
+    }
+    
+    .whyUs_titleMob{ 
+        width: fit-content;
+        height: fit-content;
+        background-color: ;
+        margin: 0 auto 6% auto;
+    }
+
+    .whyUs_title{ 
+        display: none;
+    }
+    
+    .whyUs_titleMob h1{ 
+        font-size: 7vw;
+        text-align: center;
+        margin-bottom: 3%;
+    }
+    
+    .whyUs_titleMob h2{ 
+        text-align: center;
+        font-size: 3.5vw;
+        font-weight: 400;
+    }
+
+    .whyUs-list {
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        background-color: ;
+        margin-bottom: 6%;
+      }
+      
+    .whyUs-list.grab {
+    cursor: grab;
+    }
+    
+    .whyUs-list.grabbing{
+    cursor: grabbing;
+    }
+    
+    .whyUs-track {
+    width: 100%;
+    display: flex;
+    }
+
+    .whyUs_circles{ 
+        display: flex;
+        flex-direction: row;
+        width: fit-content;
+        background-color: ;
+        margin: auto auto 0 auto;
+        height: fit-content;
+    }
+
+    .whyUs_circ{ 
+        width: 15px;
+        height: 15px;
+        margin-right: 4%;
+        border-radius: 50%;
+        background-color: #ddd;
+    }
+
+    .whyUs_circ.active{ 
+        background-color: #778CEB;
+    }
+
+    .whyUs_circ:last-child{ 
+        margin-right: 0;
+    }
+}

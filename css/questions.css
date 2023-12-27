@@ -1,0 +1,166 @@
+.questions{ 
+    padding: 3% 0;
+}
+
+.quest_con{ 
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    border-radius: 25px;
+    background-color: #E4E9FF;
+}
+
+.quest_con img{ 
+    pointer-events: none;
+    width: 35%;
+    margin: auto 0 0 auto;
+}
+
+.quest_title{ 
+    margin: 5% auto auto 3%;
+    width: 60%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: ;
+}
+
+.quest_title h1{ 
+    font-size: 3.5vw;
+    margin-bottom: 2%;
+}
+
+.quest_title h3{ 
+    font-size: 1.3vw;
+    font-weight: 400;
+    margin-bottom: 8%;
+}
+
+.quest_title h4{ 
+    font-size: 1.1vw;
+    font-weight: 400;
+    color: #9F9F9F;
+}
+
+.quest_inp_con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: fit-content;
+    background-color: ;
+    margin-bottom: 2.5%;
+}
+
+.quest_inp_con input{ 
+    width: 35%;
+    margin-right: 2%;
+    padding: 2%;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    font-size: 1.3vw;
+    color: #000000;
+}
+
+.applicate_btn{ 
+    font-size: 1.2vw;
+    border-radius: 50px;
+    cursor: pointer;
+    color: #fff;
+    width: 30%;
+    background-color: #ED145B;
+}
+
+.applicate_btn:active{ 
+    filter: brightness(90%);
+}
+
+
+
+@media (min-width: 320px) and (max-width: 750px) {
+    .questions{ 
+        padding: 5% 0;
+    }
+    
+    .quest_con{ 
+        padding: 5%;
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        background-color: #E4E9FF;
+    }
+    
+    .quest_con img{ 
+        display: none;
+    }
+    
+    .quest_title{ 
+        width: 100%;
+        height: fit-content;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        background-color: ;
+    }
+    
+    .quest_title h1{ 
+        font-size: 5.5vw;
+        margin-bottom: 2%;
+    }
+    
+    .quest_title h3{ 
+        font-size: 3vw;
+        font-weight: 400;
+        margin-bottom: 8%;
+    }
+
+    .quest_title h3 br{ 
+        display: none;
+    }
+    
+    .quest_title h4{ 
+        font-size: 2.5vw;
+        font-weight: 700;
+        color: #9F9F9F;
+    }
+    
+    .quest_inp_con {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+        height: fit-content;
+        background-color: ;
+        margin-bottom: 2.5%;
+    }
+    
+    .quest_inp_con input{ 
+        width: 100%;
+        margin-right: 0;
+        margin-bottom: 5%;
+        padding: 4%;
+        border-radius: 3px;
+        outline: none;
+        border: none;
+        font-size: 3vw;
+        color: #000000;
+    }
+    
+    .applicate_btn{ 
+        padding: 4% 0;
+        font-size: 3vw;
+        border-radius: 50px;
+        cursor: pointer;
+        color: #fff;
+        width: 100%;
+        background-color: #ED145B;
+    }
+    
+    .applicate_btn:active{ 
+        filter: brightness(90%);
+    }
+}
